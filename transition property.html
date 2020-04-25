@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+transition property
+</title>
+<style>
+img{
+        width:300px;
+         height:300px;
+   }
+img:hover{ 
+             width:600px;  
+             height:600px;
+            opacity:0.5;
+             }
+img{
+       transition-property:all;
+       transition-duration:2s;
+       transition-timing-function:ease-out;
+     }
+button{
+        width:60px;  
+         height:50px;
+        }
+button:hover{ 
+             width:200px;  
+             height:200px;
+             }
+button{
+       transition-property:all;
+       transition-duration:2s;
+       transition-timing-function:ease-out;
+     }
+h1{
+     font-size:10px;
+     color:red;
+   }
+h1:hover{
+             font-size:20px;
+             color:green;
+           }
+h1{
+        transition-property:all;
+       transition-duration:2s;
+       transition-timing-function:ease-out;
+   }
+</style>
+</head>
+<body>
+<img src="a.jpg">
+<button>rohit</button>
+<h1>I am Rohit Naikade</h1>
+</body>
+</html>
